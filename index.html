@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Tutorial Sample Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <img src="pain-freeg clear bg logo.png">
 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">🧓 John Doe</a>
+        <a href="#">👸 Mary Lamb</a>
+        <a href="#">👩 Julia Cosma</a>
+        <a href="#">👧 Jennifer Tsai</a>
+        <a href="#">👨‍🦲 Igor Ivkovic</a>
+      </div>
+      <div class="all-patients">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; all patients</span>
+
+      </div>
+      
+      <h3>Patient Profile</h3>
+      <div class="row patient-profile">
+        <div class="col-md-6">
+         
+                <img src="john-doe.jpg" class="card-img-top h-100" alt="...">
+            </div>
+            <div class="col-md-6">
+               
+                    <h5 class="card-title">John Doe</h5>
+                    <p class="card-text">
+                        <li>Age: 56</li>
+                        <li>Sex: Male</li>
+                        <li>Height: 173 cm</li>
+                        <li>Weight: 92.3 kg</li>
+                    </p>
+                    <a href="#" class="btn btn-primary stretched-link">View Patient Notes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+
+    <div class="landing-page row">
+        <div class="col-md-4 my-3 ">
+            <div class="card" style="text-align: center; width: 18rem;">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Current Pain Level</h5>
+                  <p class="card-text">7</p>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+                    View Pain History
+                  </button>
+              
+                <div class="collapse" id="collapse-1">
+                  <div class=" card card-body">
+                   
+                  </div>
+                </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 my-3 text-center">
+            <div class="card" style="text-align: center; width: 18rem;">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Current Status</h5>
+                  <p class="card-text">In hospital</p>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                    View Hospitalization History
+                  </button>
+              
+                <div class="collapse" id="collapse-2">
+                  <div class="card card-body">
+                    05/09/2020 admitted for appendectomy<br>
+                    03/03/2020 release from hospital<br>
+                    01/03/2020 admitted for transient ischemic attack
+                  </div>
+                </div>
+                </div>
+              </div>
+        </div>
+    
+ 
+        <div class="col-md-4 my-3 text-center">
+            <div class="card" style="text-align: center; width: 18rem;">
+            
+                <div class="card-body">
+                  <h5 class="card-title">Current Medication</h5>
+                  <p class="card-text">Tramadol 200 mg</p>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                    View Prescription History
+                  </button>
+              
+                <div class="collapse" id="collapse-3">
+                  <div class="card card-body">
+                    Tramadol 200 mg perscribed 05/09/2020
+                    Warfarin 5 mg perscribed 01/03/2020
+                  </div>
+                </div>
+                </div>
+              </div>
+        </div>
+
+       
+        
+           
+ 
+ 
+    </div>
+    <h3>Live EEG Pain Monitoring</h3>
+    <div class="eeg-reading">
+        <img src="https://miro.medium.com/max/2128/1*AlCW5rzbus1jqJBDSiIkRw.gif">
+    </div>
+    <h3>Patient Analytics</h3>
+    <div class="pain-rating-graph">
+        <img src="pain-rating-graph.png">
+    </div>
+      
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
